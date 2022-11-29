@@ -1,0 +1,210 @@
+{
+  "partner": [
+    {
+      "name": "General",
+      "questions": [
+        {
+          "question": "1. What is contactless delivery and how does it work?",
+          "answer": "Contactless delivery is a way of getting the items you need to be delivered to you in a way that limits unnecessary contact. With contactless delivery, you will collect the item(s) from a secure spot communicated by the sender (i.e. on a porch table, outside the main door, or inside a mailbox.) Upon arriving at the delivery address, contact the recipient and leave the item in a secure location"
+        },
+        {
+          "question": "2. How can I edit my account settings/driver profile?",
+          "answer": "You can update your phone number, email, password, address, etc. in the driver app using the steps below, Open your driver app and go the settings,Tap Profile > Edit,Select the detail to change and enter the updated information"
+        },
+        {
+          "question": "3. What if I face a technical problem in my driver app?",
+          "answer": "If you are still experiencing issues, you can contact our support team through your app to let us know about the issue, and we can assist you."
+        },
+        {
+          "question": "4. How can I update my vehicle information and documents?",
+          "answer": "You can contact us through our chat support or email us at support@inapulse.com if you need to update or add your vehicle information and documents."
+        },
+        {
+          "question": "5. How do I report items that are prohibited?",
+          "answer": "You may cancel or refuse to accept the order at anytime if the package contains prohibited items or does not follow the guidelines. If you have accepted the package for delivery and believe it contains a prohibited item, please contact the support team immediately."
+        },
+        {
+          "question": "6. How can I end or cancel a trip?",
+          "answer": ""
+        },
+        {
+          "question": "7. What to do I case of an accident?",
+          "answer": "You can contact our support team through your app to let us know about the issue, and we can assist you."
+        }
+      ]
+    },
+    {
+      "name": "Delivery",
+      "questions": [
+        {
+          "question": "1. What if I face navigation problems?",
+          "answer": "Once you accept the item, the app will automatically direct you to Google Maps. You might face problems if location services have been turned off on your device. For iOS, go to Settings > Privacy > Location services > tap On For Android, go to Settings > Location > tap On Also, make sure that you set the date, time, and time zone correctly on your device."
+        },
+        {
+          "question": "2. What if I don’t have a contact person at the time of pick-up or drop-off?",
+          "answer": "You can contact our support team through your app to let us know about the issue, and we can assist you."
+        },
+        {
+          "question": "3. What if an item was missed or damaged in the order while delivering?",
+          "answer": "In such a case, please contact the In A Pulse support team immediately to rectify the issue."
+        },
+        {
+          "question": "4. What if I cannot find the pick-up or drop-off location",
+          "answer": "You can try reaching out for the sender or receiver if you face problems with finding the location. You can find their contact details when you accept the order.If you still have issues with finding the location, please contact the InAPulse support team."
+        },
+        {
+          "question": "5. What if my delivery was picked up by someone else?",
+          "answer": "The situation of your delivery being picked up by someone else is very rare. In such a case, please contact the support team immediately."
+        },
+        {
+          "question": "6. How do I signal my unfinished/incomplete orders?",
+          "answer": "We understand that things happen and there are emergencies. If you cannot complete an order, please contact the support team immediately."
+        },
+        {
+          "question": "7. Can I accept cash from customers?",
+          "answer": "No, we do not accept cash from customers. All payments are completed through electronic means prior to pick-up."
+        },
+        {
+          "question": "8. What if I have an issue while delivering?",
+          "answer": "You can contact our support team through your app to let us know about the issue, and we can assist you."
+        }
+      ]
+    },
+    {
+      "name": "Payment",
+      "questions": [
+        {
+          "question": "1. How do I receive my earnings?",
+          "answer": "Earnings are automatically calculated and deposited to your back account on a weekly basis."
+        },
+        {
+          "question": "2. How can I add or update my bank account information?",
+          "answer": "You can contact us through our chat support or email us at support@inapulse.com if you need to update or add your bank account information."
+        },
+        {
+          "question": "3. Where can I see my tip earnings?",
+          "answer": "The driver app will automatically recognize when you travel on toll roads and you will receive the toll amount in your earnings statement."
+        },
+        {
+          "question": "4. How are tolls paid?",
+          "answer": "The driver app will automatically recognize when you travel on toll roads and you will receive the toll amount in your earnings statement. If you do not see a toll charge in your weekly earnings, you can reach out to the support team."
+        },
+        {
+          "question": "5. How are wait times calculated?",
+          "answer": "As soon as you reached the pickup location, In the App the timer will start running."
+        }
+      ]
+    }
+  ],
+  "customer": [
+    {
+      "name": "General",
+      "questions": [
+        {
+          "question": "1. What are the available delivery types?",
+          "answer": "We offer point-to-point delivery services in the GTA for individuals and businesses who require an on-demand or scheduled delivery."
+        },
+        {
+          "question": "2. What are your delivery zones?",
+          "answer": "We are currently serving GTA, If you need our services outside of this area, please contact In A Pulse chat support for immediate assistance, or send your inquiries to support@inapulse.com before placing a request."
+        },
+        {
+          "question": "3. How to place an order?",
+          "answer": "You can place an order online through In A Pulse mobile app (Android and iOS)"
+        },
+        {
+          "question": "4. What is contactless delivery and how does it work?",
+          "answer": "Contactless delivery is a way of getting the items you need to be delivered to you in a way that limits unnecessary contact. With contactless delivery, the assigned agent will collect the item(s) from a secure spot communicated by the sender (i.e. on a porch table, outside the main door, or inside a mailbox.) Upon arriving at the delivery address, the agent will contact you and leave the item in a secure location. Please check that the phone number on your In A Pulse profile is up-to-date and keep an eye on the order tracker to make sure your delivery goes smoothly."
+        },
+        {
+          "question": "5. How long does it take to deliver?",
+          "answer": "Our average delivery time is within 90 minutes, but not a guarantee. Actual delivery time may vary depending on the size of your order, traffic conditions, and other factors. We'll keep you constantly updated about the status of your delivery through the mobile apps."
+        },
+        {
+          "question": "6. What to do if my packet has arrived damaged?",
+          "answer": "In A Pulse is only liable for the damage or loss of the delivery items that occur after the pick-up. Our agents will inspect items to make sure they are in good condition when they are picked up. If the items are damaged, delayed, or lost due to the following circumstances, we will not be liable for any compensation: a) Loss or damage occurred due to any natural setback; b) Fault either by the person placing an order, sender or recipient; or c) Loss or damage occurred after the delivery has been received by the recipient. If you believe our agents are responsible for damaging your package, please contact us immediately. We treat each case individually and will with work with you to resolve the issue. Our standard practice is a reimbursement of up to $100."
+        }
+      ]
+    },
+    {
+      "name": "Placing Orders",
+      "questions": [
+        {
+          "question": "1. How can I get a quote for a delivery?",
+          "answer": "You can get a quick quote by using the Payment Calculator from our website or mobile app by simply entering your addresses and item information."
+        },
+        {
+          "question": "2. Why do I have to submit recipients contact information?",
+          "answer": "We might need the recipient’s contact information because it can help reduce delivery delays and issues. It also helps us to keep the recipient up to date about the delivery."
+        },
+        {
+          "question": "3. What if I placed an order and my delivery isn’t here yet?",
+          "answer": "The item is on its way. Traffic or weather may be impacting travel times. If you have any concerns about the status of your delivery, you can track your order through the app or you can contact us through chat support or email us at support@inapulse.com and we will investigate the delay."
+        },
+        {
+          "question": "4. What if I don’t have a contact person or number at the time of pick up or delivery?",
+          "answer": "If you don’t have contact information including your own, beware that not having this information generally makes the process of delivering jobs more difficult, leading to possible wait charges while we try and find the pick-up and delivery address. If the pick-up/delivery point is not found and there’s nobody to give/receive the package, there may be cancellation costs incurred as well."
+        },
+        {
+          "question": "5. How do I schedule a task for another day?",
+          "answer": "In A Pulse customers can schedule their on-demand pick-up and delivery up to one month in advance. Once you have specified details for your task you are then asked to schedule the window for your chosen day and time. The customer must ensure that both the sender and the recipient parties are available on the specified pickup and delivery time and date.Note: All the pick-ups and deliveries are made on the same day, and we do not hold consignments overnight."
+        }
+      ]
+    },
+    {
+      "name": "Payments",
+      "questions": [
+        {
+          "question": "1. How can I pay?",
+          "answer": "We accept Visa, MasterCard and Visa debit cards."
+        },
+        {
+          "question": "2. Do you accept cash on arrival?",
+          "answer": "No, all transactions are cashless and paperless. For both security and administrative reasons, we do not accept any form of cash payments. 4. We might be able to cancel orders and refund if the driver has not yet picked up the courier. If you need to cancel an active order you can contact us through our chat support or email us at support@inapulse.com Unfortunately. We cannot cancel any orders that have already been picked up by our agents."
+        },
+        {
+          "question": "3. How can I tip my courier?",
+          "answer": "The best way to tip your courier is through our website or mobile app. Just before placing an order, you will have an option to enter a tip amount.Also, your courier will gladly accept cash tips at your discretion"
+        },
+        {
+          "question": "4. Can I cancel active orders?",
+          "answer": "We might be able to cancel orders and refund if the driver has not yet picked up the courier. You can contact us through our chat support or email us at support@inapulse.com if you need to cancel an active order. Unfortunately, we cannot cancel any orders that are already picked up by our drivers."
+        }
+      ]
+    },
+    {
+      "name": "Tracking",
+      "questions": [
+        {
+          "question": "1. How can I see the estimated time of arrival?",
+          "answer": "If you booked the job in your account, go to your ‘Orders’ tab in the app and choose the relevant task you want to get an ETA for. Also, you will be getting updates at every step of your delivery process during transit. As soon as your In A Pulse delivery has arrived, you will be notified."
+        },
+        {
+          "question": "2. What if I cannot reach In A pulse courier and I have an issue?",
+          "answer": "In the case that your courier is unreachable, please send us a message on our chat support or email us at support@inapulse.com and we will gladly assist you."
+        },
+        {
+          "question": "3. How can I get in touch with my driver?",
+          "answer": "After the order has been placed, the delivery driver’s contact information will be visible on the tracking page of your mobile app. You will be notified at every step of the delivery process from pick-up to drop-off."
+        },
+        {
+          "question": "4. What if I want to modify a task that is currently in process?",
+          "answer": "Please contact us as soon as possible at support@inapulse.com. We might be able to make this change for you."
+        }
+      ]
+    },
+    {
+      "name": "Packaging",
+      "questions": [
+        {
+          "question": "1. Should I pack my on-demand consignment?",
+          "answer": "Please note that it is the sender’s responsibility to properly pack the consignment before pick-up. In A Pulse is not liable for any loss or damage due to insufficient packaging."
+        },
+        {
+          "question": "2. How do I know that my on-demand consignments are safe and correctly packaged for delivery?",
+          "answer": "We recommended using new packaging for fragile or delicate consignments since reused materials tend to get weaker and less firm with use. It is your responsibility to ensure to pack your items safely and in such a way that they are shock-resistant, if necessary."
+        }
+      ]
+    }
+  ]
+}

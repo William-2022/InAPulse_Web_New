@@ -1,0 +1,13 @@
+.pac-container {
+    padding: 20px 0;
+    z-index: 9999999;
+}
+
+.pac-item {
+    border-top: 0;
+    cursor:pointer;
+    padding: 15px 10px
+}
+.pac-item:hover{
+    background-color: blanchedalmond;
+}

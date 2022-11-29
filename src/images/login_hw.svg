@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="283" height="232" viewBox="0 0 283 232">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.612" y1="0.964" x2="0.592" y2="0.231" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#79d3fe"/>
+      <stop offset="1" stop-color="#0072bc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1.066" x2="0.5" y2="-0.044" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0197f8"/>
+      <stop offset="1" stop-color="#59acf9"/>
+    </linearGradient>
+  </defs>
+  <g id="组_10" data-name="组 10" transform="translate(0.114 0.43)">
+    <path id="多边形_1" data-name="多边形 1" d="M107.351,55.991c15.591-25.562,52.708-25.562,68.3,0L245.9,171.172C262.157,197.827,242.972,232,211.751,232H71.249c-31.222,0-50.407-34.173-34.149-60.828Z" transform="translate(-0.114 -0.43)" fill="#fff5e8"/>
+    <g id="enter" transform="translate(94.712 112.631)">
+      <path id="Path" d="M62.633,1.386A3.2,3.2,0,0,0,60,0H25.6A9.611,9.611,0,0,0,16,9.6v2.492c.125.112.268.2.387.32l12.8,12.8a9.6,9.6,0,0,1,0,13.573l-12.8,12.8c-.118.118-.262.205-.387.32V57.6a9.611,9.611,0,0,0,9.6,9.6H36.8a3.194,3.194,0,0,0,2.989-2.061l23.2-60.795a3.194,3.194,0,0,0-.352-2.953Z" transform="translate(9.598)" fill="url(#linear-gradient)"/>
+      <path id="Path-2" data-name="Path" d="M17.973,41.754A3.2,3.2,0,0,1,16,38.8V29.2H3.2a3.2,3.2,0,0,1,0-6.4H16V13.2a3.2,3.2,0,0,1,5.462-2.262l12.8,12.8a3.2,3.2,0,0,1,0,4.524l-12.8,12.8A3.2,3.2,0,0,1,17.973,41.754Z" transform="translate(0 5.998)" fill="#00395e"/>
+      <path id="Path-3" data-name="Path" d="M51.559.313,32.336,6.722A6.431,6.431,0,0,0,28,12.795v57.6a6.406,6.406,0,0,0,6.4,6.4,6.714,6.714,0,0,0,2.038-.317l19.224-6.409A6.431,6.431,0,0,0,60,63.991V6.4A6.443,6.443,0,0,0,51.559.313Z" transform="translate(16.796 0.004)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

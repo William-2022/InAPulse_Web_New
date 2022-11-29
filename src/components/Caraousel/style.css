@@ -1,0 +1,39 @@
+:root{
+  --swiper-theme-color:#EE8503 !important
+}
+
+
+
+.swiper {
+  height: 519.39874267578125px;
+  width: 90%;
+  max-width:900px;
+  min-width:300px;
+  left: 0px;
+  top: 0.199462890625px;
+  border-radius: 25px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.swiper-button-next,.swiper-button-prev{
+  color:var(--swiper-theme-color) !important;
+  height:calc(var(--swiper-navigation-size)/ 44 * 27) !important;
+  padding:15px;
+  border-radius:50%;
+  border:4px solid var(--swiper-theme-color);
+
+}
+
+.swiper-button-next:after,.swiper-button-prev:after{
+  font-weight: 900 !important;
+  font-size:calc(var(--swiper-navigation-size)/ 50 * 27) !important ;
+}
+

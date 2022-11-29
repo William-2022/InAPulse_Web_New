@@ -1,0 +1,25 @@
+<svg id="debit-card" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141.936" height="200" viewBox="0 0 141.936 200">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.375" y1="0.521" x2="0.413" y2="0.428" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0072bc"/>
+      <stop offset="1" stop-color="#79d3fe"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1.066" x2="0.5" y2="-0.044" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0197f8"/>
+      <stop offset="1" stop-color="#59acf9"/>
+    </linearGradient>
+  </defs>
+  <path id="Path" d="M139.413,5.856,130.587.691c-1.478-.981-3.452-.954-5.623.316L8.388,69.244C3.81,71.924.1,79.113.1,85.3V187.519c0,3.656,1.3,6.143,3.3,7.016l7.982,4.672Z" transform="translate(-0.1 0)" fill="url(#linear-gradient)"/>
+  <path id="Path-2" data-name="Path" d="M127.669,127.236,11.118,195.487c-4.577,2.68-8.287-.165-8.287-6.354V86.894c0-6.189,3.71-13.38,8.287-16.06L127.669,2.583c4.577-2.68,8.287.165,8.287,6.354V111.176C135.956,117.366,132.246,124.556,127.669,127.236Z" transform="translate(5.98 3.505)" fill="url(#linear-gradient-2)"/>
+  <path id="Path-3" data-name="Path" d="M2.831,124.655,135.956,47.421V24.529L2.831,101.762Z" transform="translate(5.98 56.403)" fill="#00395e"/>
+  <path id="Path-4" data-name="Path" d="M32.62,45.742,7.306,60.525V49.409L32.62,34.627Z" transform="translate(15.812 78.244)" fill="#fff"/>
+  <path id="Path-5" data-name="Path" d="M29.6,42.365,16.943,49.757V38.641L29.6,31.249Z" transform="translate(37.12 70.569)" fill="#fff"/>
+  <path id="Path-6" data-name="Path" d="M56.157,33.706l-20.9,12.2a2.286,2.286,0,0,1-3.438-1.974V27.361a5.878,5.878,0,0,1,2.914-5.076l20.9-12.2a2.286,2.286,0,0,1,3.438,1.974V28.631A5.879,5.879,0,0,1,56.157,33.706Z" transform="translate(69.857 22.088)" fill="#f7e041"/>
+  <ellipse id="Oval" cx="16.361" cy="9.256" rx="16.361" ry="9.256" transform="matrix(0.392, -0.92, 0.92, 0.392, 48.71, 92.822)" fill="#7662bd"/>
+  <g id="Group" transform="translate(21.169 37.638)">
+    <ellipse id="Oval-2" data-name="Oval" cx="16.361" cy="9.256" rx="16.361" ry="9.256" transform="matrix(0.392, -0.92, 0.92, 0.392, 0, 72.146)" fill="#e37a34"/>
+    <path id="Path-7" data-name="Path" d="M26.406,3.171V27.1l2.69-1.571V1.6Z" transform="translate(58.054 3.261)" fill="#e37a34"/>
+    <path id="Path-8" data-name="Path" d="M26.406,13.618,49.832.093V2.641L26.406,16.166Z" transform="translate(57.927 -0.093)" fill="#e37a34"/>
+    <path id="Path-9" data-name="Path" d="M26.406,16.109,49.832,2.584V5.132L26.406,18.657Z" transform="translate(57.927 5.452)" fill="#e37a34"/>
+  </g>
+</svg>
