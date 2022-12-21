@@ -10,7 +10,6 @@ const DropoffDetails = ({ setIsCurrentStageValid }) => {
   const [error, setError] = useState("");
 
   const handleSavedAddressSelect = (selectedAddress) => {
-    console.log(selectedAddress);
     const {
       address,
       address2,

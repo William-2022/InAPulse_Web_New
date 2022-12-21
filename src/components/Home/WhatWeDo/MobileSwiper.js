@@ -19,13 +19,10 @@ const MobileSwiper = ({ list }) => {
   const xl = useMediaQuery((theme) => theme.breakpoints.up("xl"));
 
   return (
-    <Swiper
-    className="mySwiper"
-    slidesPerView={1.5}
-    >
+    <Swiper className="mySwiper" slidesPerView={1.5}>
       {list.map((list) => (
-        <SwiperSlide >
-          <Card sx={{ boxShadow:"none" }}>
+        <SwiperSlide>
+          <Card sx={{ boxShadow: "none" }}>
             <Box
               sx={{
                 display: "flex",

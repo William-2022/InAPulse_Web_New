@@ -214,8 +214,9 @@ export default function Footer() {
             <Box className="socials" sx={{ display: "flex" }}>
               {socials.map((social) => {
                 return (
-                  <Paper
+                  <Button
                     sx={{
+                      minWidth:0.1,
                       padding: "1%",
                       margin: "2%",
                       boxShadow: "none",
@@ -237,7 +238,7 @@ export default function Footer() {
                     rel="noreferrer"
                   >
                     {social.icon}
-                  </Paper>
+                  </Button>
                 );
               })}
             </Box>
@@ -249,7 +250,7 @@ export default function Footer() {
           md={6}
           xs={12}
           sx={{
-            display: md && lg && xl ? "none" : "flex",
+            display: bxssm ? "flex" : "none",
             flexWrap: "wrap",
             flexDirection: "row",
             justifyContent: "space-between",
@@ -272,7 +273,6 @@ export default function Footer() {
               textTransform: "none",
               fontSize: sm ? "14px" : "12px",
               px: 0,
-              color: "secondary.dark",
             }}
             onClick={() => navigate("/Terms")}
             rel="noreferrer"
@@ -285,7 +285,6 @@ export default function Footer() {
             sx={{
               textTransform: "none",
               fontSize: sm ? "14px" : "12px",
-              color: "secondary.dark",
             }}
             onClick={() => navigate("/PrivacyPolicy")}
             rel="noreferrer"

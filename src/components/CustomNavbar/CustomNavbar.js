@@ -82,6 +82,7 @@ const CustomNavbar = () => {
                 },
               }}
               anchororigin={{
+                vertical:"left",
                 horizontal: "left",
               }}
               aria-describedby={id}
@@ -117,6 +118,7 @@ const CustomNavbar = () => {
           sx={{}}
           MenuListProps={{ onMouseLeave: handleClose }}
           anchorOrigin={{
+            vertical:"left",
             horizontal: "left",
           }}
         >

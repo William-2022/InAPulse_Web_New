@@ -22,7 +22,6 @@ const DeliveryEstimate = ({ setIsCurrentStageValid, submissionError }) => {
   const { order } = UseOrder();
   const { getPaymentMethodList, orderEstimate, getCustomerOrderPromotion } =
     useApi();
-
   const {
     pickupFullAddress,
     deliveryChargeAmount,

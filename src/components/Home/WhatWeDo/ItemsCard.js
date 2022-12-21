@@ -15,6 +15,7 @@ const ItemCard = ({ list}) => {
           image={list.icon}
           alt="Live"
         />
+
         <CardContent >
           <Typography sx={{ fontSize: 20}}>
             {list.label}

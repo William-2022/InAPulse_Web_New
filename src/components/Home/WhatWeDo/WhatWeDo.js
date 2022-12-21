@@ -18,6 +18,7 @@ import flowers from "../../../images/V2/dels/flowers.jpg"
 import auto from "../../../images/V2/dels/auto.jpg"
 import ele from "../../../images/V2/dels/ele.jpg"
 import meds from "../../../images/V2/dels/meds.jpg"
+import more2 from "../../../images/V2/dels/more2.jpg"
 
 import SettingsIcon from '@mui/icons-material/Settings';
 import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
@@ -35,7 +36,7 @@ const WhatWeDo = () => {
     { label: "Flowers", icon: flowers },
     { label: "Electronics", icon: ele },
     { label: "Pharmacy", icon: meds },
-    { label: "More items", icon: meds }
+    { label: "More items", icon: more2 }
    ];
 
 
@@ -55,7 +56,7 @@ const WhatWeDo = () => {
       </Grid>
       
       <Box sx={{display:"flex", justifyContent:"space-between",marginTop:"5%"}} >
-        {categoryList.map(item=><div>
+        {categoryList.map((item)=><div>
           
           {!(sm && xs)?null:<ItemsCard list={item} />}
           </div>)}

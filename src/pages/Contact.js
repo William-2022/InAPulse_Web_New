@@ -46,15 +46,16 @@ export default function Contact() {
 
   const mainContact = [
     {
-      value: contact?.phone || "",
+      // value: contact?.phone || "",
+      value:"+1 416-881-2810" ,
       icon: <Phone />,
-      format: "phone",
+    
     },
-    {
-      value: contact?.phone1 || "",
-      icon: <Phone />,
-      format: "phone",
-    },
+    // {
+    //   value: contact?.phone1 || "",
+    //   icon: <Phone />,
+    //   format: "phone",
+    // },
     {
       value: contact?.email || "info@inapulse.com",
       icon: <Mail />,

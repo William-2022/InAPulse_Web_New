@@ -14,6 +14,8 @@ const EasyDelivery = () => {
   let sm = useMediaQuery((theme) => theme.breakpoints.up("sm"));
   let md = useMediaQuery((theme) => theme.breakpoints.up("md"));
   const lg = useMediaQuery((theme) => theme.breakpoints.up("lg"));
+  const bxssm = useMediaQuery((theme) => theme.breakpoints.between('xs', 'sm'));
+  const bmdlg = useMediaQuery((theme) => theme.breakpoints.between('md', 'lg'));
 
   return (
     <Box
@@ -29,7 +31,7 @@ const EasyDelivery = () => {
       <Box
         component="section"
         sx={{
-          width: md ? "60%" : "100%",
+          width: bxssm? "100%" : xl ? "50%" :"60%",
           display: "flex",
           flexWrap: "wrap",
           alignItems: "flex-start",

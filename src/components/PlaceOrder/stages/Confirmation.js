@@ -40,6 +40,7 @@ const Confirmation = ({ handletoStage, setIsCurrentStageValid }) => {
     (!scheduledAt || new Date(scheduledAt) >= new Date()) &&
     // checkbox
     agree;
+    
   useEffect(() => {
     setIsCurrentStageValid(isValid);
   }, [isValid, setIsCurrentStageValid]);

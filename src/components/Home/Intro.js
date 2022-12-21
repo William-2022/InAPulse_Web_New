@@ -11,8 +11,6 @@ import {
 import Hero from "../../images/V2/Hero.png";
 import flowers from "../../images/V2/GYQ/flowers.png";
 import meds from "../../images/V2/GYQ/meds.png";
-import bird from "../../images/Home/bird.png";
-import mobileman from "../../images/mobileman.png";
 
 import Title from "../general/Title";
 import Button from "../general/Button";
@@ -112,7 +110,11 @@ export default function Intro() {
             </Typography>
             {/* mobile image */}
             {xs && sm && md ? null : (
-              <Box component={"img"} alt="landingphoto" src={Hero} />
+              <Box sx={{height:"85%",width:"100%",  
+              "@media (width: 820px) and (height: 1180px)": {
+                height: "120%",
+                width: "95%",
+              },}} component={"img"} alt="landingphoto" src={Hero} />
             )}
             <Button
               disableRipple
@@ -149,13 +151,7 @@ export default function Intro() {
                 height: lg ? "90%" : md ? "70%" : sm ? "60%" : "38%",
                 minWidth: sm && md ? "400px" : "100px",
                 zIndex: 2,
-                
-                "@media (width: 820px) and (height: 1180px)": {
-                  top: "55%",
-                  left: "27%",
-                  height: "45%",
-                  width: "60%",
-                },
+              
                 "@media (width: 280px) and (height: 653px)": {
                   top: "35%",
                   left: "30%",

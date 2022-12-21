@@ -15,8 +15,8 @@ export default function DriverSignUp() {
   const md = useMediaQuery((theme) => theme.breakpoints.up("md"));
 
   return (
-    <Box>
-      <ResponsiveSection bgcolor="background.main" py={10}>
+    <Box >
+      <ResponsiveSection bgcolor="background.main" sx={{padding:"5% 12% 0 12%"}} >
         <Grid container>
           <Grid
             item
