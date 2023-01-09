@@ -2,26 +2,21 @@ import React, { useEffect, useState } from "react";
 import Title from "../../general/Title";
 import Body from "../../general/Body";
 import { Box } from "@mui/system";
-import AddNewPayment from "../../../pages/UserProfile/AddNewPayment"
+
 import EstimateFlexRow from "../../EstimateFlexRow";
 import UseOrder from "../../../hooks/useOrder";
 import InParentLoader from "../../InParentLoader";
 import useApi from "../../../hooks/useApi";
-import { Button,Typography } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import PaymentSelect from "../PaymentSelect";
-
-
-
-
+import PaymentMethods from "../../../pages/UserProfile/PaymentMethods";
 const DeliveryEstimate = ({ setIsCurrentStageValid, submissionError }) => {
   const [estimate, setEstimate] = useState({});
   const [paymentMethodList, setPaymentMethodList] = useState([]);
-  const [setPaymentData] = useState(null);
-  const [isOpen, setIsOpen] = useState(false);
-
   const { order } = UseOrder();
   const { getPaymentMethodList, orderEstimate, getCustomerOrderPromotion } =
     useApi();
+
   const {
     pickupFullAddress,
     deliveryChargeAmount,
@@ -36,16 +31,6 @@ const DeliveryEstimate = ({ setIsCurrentStageValid, submissionError }) => {
   setIsCurrentStageValid(
     Boolean(paymentMethodId) && Boolean(estimate.pickupFullAddress)
   );
-
-  const getPaymentMethods = async () => {
-    try {
-      await getPaymentMethodList().then((res) => {
-        setPaymentData(res.payload);
-      });
-    } catch (error) {
-      console.error(error);
-    }
-  };
 
   useEffect(() => {
     if (!Boolean(estimate.pickupFullAddress)) {
@@ -63,13 +48,12 @@ const DeliveryEstimate = ({ setIsCurrentStageValid, submissionError }) => {
     getPaymentMethodList()
       .then((res) => setPaymentMethodList(res.payload))
       .catch((err) => console.log(err));
-  }, [getPaymentMethodList,paymentMethodList]);
+  }, [getPaymentMethodList]);
 
   if (!pickupFullAddress) return <InParentLoader />;
-  
+
   return (
     <Box width="80%">
-      
       <Title id="modal-modal-title">Order Estimation</Title>
       <Body mt={2} fontWeight={"bold"} component="h6">
         Pricing Details
@@ -84,39 +68,13 @@ const DeliveryEstimate = ({ setIsCurrentStageValid, submissionError }) => {
         <EstimateFlexRow bold label={"Total"} price={totalChargeAmount} />
       </Box>
       <Typography sx={{ my: 2 }}>Select A Payment Method</Typography>
-      {paymentMethodList.length !== 0 ? <PaymentSelect paymentMethodList={paymentMethodList[0]} />: 
-      <Button
-      disableRipple
-      onClick={() => setIsOpen(true)}
-      sx={{
-        textTransform: "uppercase",
-        fontWeight: "bold",
-        fontSize: "0.8rem",
-        marginBottom: "5em",
-        textAlign: "center",
-        mt:"20px",
-        py: "15px",
-        px:"30px",
-        bgcolor: "primary.main",
-        color: "white",
-        borderRadius: 3,
-        "&:hover": {
-          backgroundColor: "#f37d0d",
-          transition: "1s",
-        },
-      }}
-    >
-      Add new card
-    </Button>
-      }
-       <AddNewPayment
-        getPaymentMethods={getPaymentMethods}
-        isOpen={isOpen}
-        handleClose={() => setIsOpen(false)}
-      />
+      <PaymentSelect paymentMethodList={paymentMethodList} />
       <Typography sx={{ my: 2 }} color="error">
         {submissionError}
       </Typography>
+      <Button>
+        <PaymentMethods />
+      </Button>
     </Box>
   );
 };

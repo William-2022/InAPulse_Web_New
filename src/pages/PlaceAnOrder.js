@@ -63,7 +63,7 @@ function PlaceAnOrder() {
           <AlreadyHaveOrder orderId={activeOrder.id} />
         ) : (
           <Grid  justifyContent={"center"} container>
-            <Grid item xs={12} md={8} xs={13}>
+            <Grid item xs={12} md={8}>
               <Stepper
                 sx={{
                   "& .MuiStepLabel-root .Mui-active": {
