@@ -114,7 +114,7 @@ export const orderCoverage = () => {
 
 /// TEMPORARY
 const tgPublic =
-  "https://42559ec8re.execute-api.ca-central-1.amazonaws.com/williamtg";
+  "https://5gkbbobgd7.execute-api.ca-central-1.amazonaws.com/dev";
 
 export const getBusinessCoverage = () => {
   return axios.get(`${tgPublic}/v1/public/coverage`).then((res) => res.data);
