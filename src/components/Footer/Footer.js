@@ -86,11 +86,12 @@ export default function Footer() {
               fontSize: sm ? "14px" : "12px",
             }}
           >
-            © 2022 In A Pulse
+            © 2023 In A Pulse
           </Typography>
           <Typography
             disableRipple
             sx={{
+              cursor: "pointer",
               textTransform: "none",
               fontSize: sm ? "14px" : "12px",
               px: 0,
@@ -105,6 +106,7 @@ export default function Footer() {
             disableRipple
             color={"background"}
             sx={{
+              cursor: "pointer",
               textTransform: "none",
               fontSize: sm ? "14px" : "12px",
               color: "secondary.dark",
@@ -150,6 +152,7 @@ export default function Footer() {
                 onClick={() => navigate(page.link)}
                 key={page.link}
                 sx={{
+                  cursor: "pointer",
                   textTransform: "none",
                   color: "secondary.dark",
                   display: "flex",
@@ -178,11 +181,12 @@ export default function Footer() {
                 fontSize: sm ? "14px" : "12px",
               }}
             >
-              © 2022 In A Pulse
+              © 2023 In A Pulse
             </Typography>
             <Typography
               disableRipple
               sx={{
+                cursor: "pointer",
                 textTransform: "none",
                 fontSize: sm ? "14px" : "12px",
                 px: 0,
@@ -197,6 +201,7 @@ export default function Footer() {
               disableRipple
               color={"background"}
               sx={{
+                cursor: "pointer",
                 textTransform: "none",
                 fontSize: sm ? "14px" : "12px",
                 color: "secondary.dark",
@@ -264,12 +269,13 @@ export default function Footer() {
               fontSize: sm ? "14px" : "12px",
             }}
           >
-            © 2022 In A Pulse
+            © 2023 In A Pulse
           </Typography>
 
           <Typography
             disableRipple
             sx={{
+              cursor: "pointer",
               textTransform: "none",
               fontSize: sm ? "14px" : "12px",
               px: 0,
@@ -283,6 +289,7 @@ export default function Footer() {
             disableRipple
             color={"background"}
             sx={{
+              cursor: "pointer",
               textTransform: "none",
               fontSize: sm ? "14px" : "12px",
             }}

@@ -15,7 +15,7 @@ function WhatWeOfferDriver() {
     },
     {
       title: "Earn money on the go",
-      body: "Clear and concise pay model lets you know how much you will pay before accepting any order.",
+      body: "Clear and concise pay model lets you know how much you will get before accepting any order.",
       img: earnMoneyImg,
       side: "right",
     },
