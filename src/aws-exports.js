@@ -3,48 +3,58 @@
 
 const awsmobile = {
     "aws_project_region": "ca-central-1",
-    "aws_appsync_graphqlEndpoint": "https://6hommtpbhvarnmx426uog75gma.appsync-api.ca-central-1.amazonaws.com/graphql",
-    "aws_appsync_region": "ca-central-1",
-    "aws_appsync_authenticationType": "API_KEY",
-    "aws_appsync_apiKey": "da2-4ebzodkvpvaizh7yjysoe2ifoe",
     "aws_cloud_logic_custom": [
         {
+            "name": "CustomerRESTv2",
+            "endpoint": "https://9c4p1lh390.execute-api.ca-central-1.amazonaws.com/dev",
+            "region": "ca-central-1"
+        },
+        {
             "name": "adminRESTv1",
-            "endpoint": "https://t7lifkbft5.execute-api.ca-central-1.amazonaws.com/beta",
-            "region": "ca-central-1"
-        },
-        {
-            "name": "customerRESTv1",
-            "endpoint": "https://2nye6h26q8.execute-api.ca-central-1.amazonaws.com/beta",
-            "region": "ca-central-1"
-        },
-        {
-            "name": "deliveryPartnerRESTv1",
-            "endpoint": "https://ayk2ma9olj.execute-api.ca-central-1.amazonaws.com/beta",
-            "region": "ca-central-1"
-        },
-        {
-            "name": "publicRESTv1",
-            "endpoint": "https://dw13ig1td3.execute-api.ca-central-1.amazonaws.com/beta",
-            "region": "ca-central-1"
-        },
-        {
-            "name": "stripeWebhookRESTv1",
-            "endpoint": "https://jjo1s4o59l.execute-api.ca-central-1.amazonaws.com/beta",
+            "endpoint": "https://8yjrb5m8bd.execute-api.ca-central-1.amazonaws.com/dev",
             "region": "ca-central-1"
         },
         {
             "name": "appRESTv1",
-            "endpoint": "https://jglxl5mnc6.execute-api.ca-central-1.amazonaws.com/beta",
+            "endpoint": "https://3aaittf6n4.execute-api.ca-central-1.amazonaws.com/dev",
+            "region": "ca-central-1"
+        },
+        {
+            "name": "customerRESTSigninV1",
+            "endpoint": "https://jm64h5ofij.execute-api.ca-central-1.amazonaws.com/dev",
+            "region": "ca-central-1"
+        },
+        {
+            "name": "customerRESTv1",
+            "endpoint": "https://acym11usmf.execute-api.ca-central-1.amazonaws.com/dev",
+            "region": "ca-central-1"
+        },
+        {
+            "name": "deliveryPartnerRESTv1",
+            "endpoint": "https://3zh3b09fg1.execute-api.ca-central-1.amazonaws.com/dev",
+            "region": "ca-central-1"
+        },
+        {
+            "name": "publicRESTv1",
+            "endpoint": "https://5gkbbobgd7.execute-api.ca-central-1.amazonaws.com/dev",
+            "region": "ca-central-1"
+        },
+        {
+            "name": "stripeWebhookRESTv1",
+            "endpoint": "https://2o7t144qii.execute-api.ca-central-1.amazonaws.com/dev",
             "region": "ca-central-1"
         }
     ],
-    "aws_cognito_identity_pool_id": "ca-central-1:402dd4ab-e458-435b-8843-421599917756",
+    "aws_appsync_graphqlEndpoint": "https://ddr2ogyqvfgdfdzl2kjtxxbuau.appsync-api.ca-central-1.amazonaws.com/graphql",
+    "aws_appsync_region": "ca-central-1",
+    "aws_appsync_authenticationType": "API_KEY",
+    "aws_appsync_apiKey": "da2-nnfrs4qjafdrvipp35hvni4l2e",
+    "aws_cognito_identity_pool_id": "ca-central-1:585d43cc-15c5-4ead-bade-237a8253efeb",
     "aws_cognito_region": "ca-central-1",
-    "aws_user_pools_id": "ca-central-1_93iuOjbwV",
-    "aws_user_pools_web_client_id": "1lo3062r53niga21u0am7omdkt",
+    "aws_user_pools_id": "ca-central-1_c8Dl1yrlX",
+    "aws_user_pools_web_client_id": "4dcp901cndpo6ce7se5h31k24g",
     "oauth": {
-        "domain": "inapulsebeta-beta.auth.ca-central-1.amazoncognito.com",
+        "domain": "inapulsebeta-dev.auth.ca-central-1.amazoncognito.com",
         "scope": [
             "phone",
             "email",
@@ -52,11 +62,11 @@ const awsmobile = {
             "profile",
             "aws.cognito.signin.user.admin"
         ],
-        "redirectSignIn": "https://www.inapulse.com",
-        "redirectSignOut": "https://www.inapulse.com",
+        "redirectSignIn": "exp://192.168.0.67:19000/",
+        "redirectSignOut": "exp://192.168.0.67:19000/",
         "responseType": "code"
     },
-    "federationTarget": "COGNITO_USER_AND_IDENTITY_POOLS",
+    "federationTarget": "COGNITO_USER_POOLS",
     "aws_cognito_username_attributes": [
         "EMAIL"
     ],
@@ -80,10 +90,9 @@ const awsmobile = {
     "aws_cognito_verification_mechanisms": [
         "EMAIL"
     ],
-    "aws_user_files_s3_bucket": "inapulsedeliveryimage130130-beta",
+    "aws_user_files_s3_bucket": "inapulsedeliveryimage164052-dev",
     "aws_user_files_s3_bucket_region": "ca-central-1"
 };
 
 
 export default awsmobile;
-
